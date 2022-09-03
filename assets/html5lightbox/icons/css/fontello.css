@@ -1,0 +1,258 @@
+/*****
+
+
+
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?14845602');
+  src: url('../font/fontello.eot?14845602#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?14845602') format('woff2'),
+       url('../font/fontello.woff?14845602') format('woff'),
+       url('../font/fontello.ttf?14845602') format('truetype'),
+       url('../font/fontello.svg?14845602#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?14845602#fontello') format('svg');
+  }
+}
+*/
+
+/***
+ 
+
+
+
+
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+/* For safety - reset parent styles, that can break glyph codes*/
+
+font-variant: normal;
+text-transform: none;
+/* fix buttons height, for twitter bootstrap */
+
+line-height: 1em;
+/* Animation center compensation - margins should be symmetric */
+
+/* remove if not needed */
+
+margin-left: .2em;
+/* you can be more comfortable with increased icons size */
+
+/* font-size: 120%; */
+
+/* Font smoothing. That was taken from TWBS */
+
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+/* Uncomment for 3D effect */
+
+/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+
+}
+
+/****
+
+
+
+
+
+ 
+.icon-download:before { content: '\e800'; } /* 'Ã®Â â‚¬' */
+
+.icon-mail:before {
+    content: '\e801';
+}
+
+/* 'Ã®Â Â' */
+
+.icon-heart:before {
+    content: '\e802';
+}
+
+/* 'Ã®Â â€š' */
+
+.icon-link:before {
+    content: '\e803';
+}
+
+/* 'Ã®Â Æ’' */
+
+.icon-thumbs-up:before {
+    content: '\e804';
+}
+
+/* 'Ã®Â â€ž' */
+
+.icon-spin1:before {
+    content: '\e830';
+}
+
+/* 'Ã®Â Â°' */
+
+.icon-spin2:before {
+    content: '\e831';
+}
+
+/* 'Ã®Â Â±' */
+
+.icon-spin3:before {
+    content: '\e832';
+}
+
+/* 'Ã®Â Â²' */
+
+.icon-spin4:before {
+    content: '\e834';
+}
+
+/* 'Ã®Â Â´' */
+
+.icon-spin5:before {
+    content: '\e838';
+}
+
+/* 'Ã®Â Â¸' */
+
+.icon-spin6:before {
+    content: '\e839';
+}
+
+/* 'Ã®Â Â¹' */
+
+.icon-twitter:before {
+    content: '\f099';
+}
+
+/* 'Ã¯â€šâ„¢' */
+
+.icon-facebook:before {
+    content: '\f09a';
+}
+
+/* 'Ã¯â€šÅ¡' */
+
+.icon-gplus:before {
+    content: '\f0d5';
+}
+
+/* 'Ã¯Æ’â€¢' */
+
+.icon-linkedin:before {
+    content: '\f0e1';
+}
+
+/* 'Ã¯Æ’Â¡' */
+
+.icon-youtube:before {
+    content: '\f16a';
+}
+
+/* 'Ã¯â€¦Âª' */
+
+.icon-dropbox:before {
+    content: '\f16b';
+}
+
+/* 'Ã¯â€¦Â«' */
+
+.icon-instagram:before {
+    content: '\f16d';
+}
+
+/* 'Ã¯â€¦Â­' */
+
+.icon-flickr:before {
+    content: '\f16e';
+}
+
+/* 'Ã¯â€¦Â®' */
+
+.icon-tumblr:before {
+    content: '\f173';
+}
+
+/* 'Ã¯â€¦Â³' */
+
+.icon-dribbble:before {
+    content: '\f17d';
+}
+
+/* 'Ã¯â€¦Â½' */
+
+.icon-skype:before {
+    content: '\f17e';
+}
+
+/* 'Ã¯â€¦Â¾' */
+
+.icon-vimeo:before {
+    content: '\f194';
+}
+
+/* 'Ã¯â€ â€' */
+
+.icon-reddit:before {
+    content: '\f1a1';
+}
+
+/* 'Ã¯â€ Â¡' */
+
+.icon-digg:before {
+    content: '\f1a6';
+}
+
+/* 'Ã¯â€ Â¦' */
+
+.icon-vine:before {
+    content: '\f1ca';
+}
+
+/* 'Ã¯â€¡Å ' */
+
+.icon-git:before {
+    content: '\f1d3';
+}
+
+/* 'Ã¯â€¡â€œ' */
+
+.icon-wechat:before {
+    content: '\f1d7';
+}
+
+/* 'Ã¯â€¡â€”' */
+
+.icon-pinterest:before {
+    content: '\f231';
+}
+
+/* 'Ã¯Ë†Â±' */
+
+.icon-whatsapp:before {
+    content: '\f232';
+}
+
+/* 'Ã¯Ë†Â²' */
